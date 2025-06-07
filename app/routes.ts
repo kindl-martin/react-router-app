@@ -5,6 +5,10 @@ export default [
     {
         path: "/profile",
         file: "routes/profile/index.tsx"
+    },
+    {
+        path: "/todos",
+        file: "routes/todos/index.tsx"
     }
 
 ] satisfies RouteConfig;
